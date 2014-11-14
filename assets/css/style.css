@@ -495,10 +495,9 @@ background-color: rgb(19, 170, 74);
 /*FOOTER SECTION*/
 #footer {
     padding: 20px;
-    background-color: rgb(255, 102, 0);
+    background-color: #546673;
     padding-right: 50px;
     color: white;
-    border-top: 4px dashed rgb(194, 69, 29);
     text-align: center;
 }
 
