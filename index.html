@@ -1,538 +1,277 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Catch all possibilities.">
-  <meta name="author" content="Zypher F. Vheigns">
-
-  <title>GUIEXE</title>
-
-  <link href="assets/favicon.ico" rel="icon" type="image/x-icon">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1' rel='stylesheet' type='text/css'>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-  <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
-  <link href="assets/css/style.css" rel="stylesheet" />
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+   <title>Prologue by HTML5 UP</title>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="description" content="" />
+   <meta name="keywords" content="" />
+   <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery.scrolly.min.js"></script>
+   <script src="js/jquery.scrollzer.min.js"></script>
+   <script src="js/skel.min.js"></script>
+   <script src="js/skel-layers.min.js"></script>
+   <script src="js/init.js"></script>
+   <noscript>
+      <link rel="stylesheet" href="css/skel.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-wide.css" />
+   </noscript>
+   <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+   <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 
 <body>
 
-  <!--NAV SECTION -->
-  <header id="header-nav" role="banner">
-    <div id="navbar" class="navbar navbar-default">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <div class="site-logo"></div>GUIEXE</a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+   <!-- Header -->
+   <div id="header" class="skel-layers-fixed">
+
+      <div class="top">
+
+         <!-- Logo -->
+         <div id="logo">
+            <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+            <h1 id="title">Francis A.</h1>
+            <p>Android & Web Developer UIUX Designer / Graphic Artist</p>
+         </div>
+
+         <!-- Nav -->
+         <nav id="nav">
+            <!--
+              Prologue's nav expects links in one of two formats:
+              1. Hash link (scrolls to a different section within the page)
+                 <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+              2. Standard link (sends the user to another page/site)
+                 <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+            -->
+            <ul>
+               <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Introduction</span></a>
+               </li>
+               <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a>
+               </li>
+               <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a>
+               </li>
+               <li><a href="#comment" id="comment-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Post Comment</span></a>
+               </li>
+               <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact Info</span></a>
+               </li>
+            </ul>
+         </nav>
+
       </div>
 
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav flot-nav">
-          <li><a href="#slide-head">Home</a>
-          </li>
-          <li><a href="#about-section">About</a>
-          </li>
-          <li><a href="#services-section">Item</a>
-          </li>
-          <li><a href="#portfolio-section">Item</a>
-          </li>
-          <li><a href="#pricing-section">Item</a>
-          </li>
-          <li><a href="#contact-section">Contact</a>
-          </li>
-        </ul>
+      <div class="bottom">
+
+         <!-- Social Icons -->
+         <ul class="icons">
+            <li><a target="_blank" href="https://twitter.com/ZypherVheigns3" class="icon fa-twitter"><span class="label">Twitter</span></a>
+            </li>
+            <li><a target="_blank" href="https://www.facebook.com/chocosun28" class="icon fa-facebook"><span class="label">Facebook</span></a>
+            </li>
+            <li><a target="_blank" href="https://github.com/thirdykero" class="icon fa-github"><span class="label">Github</span></a>
+            </li>
+            <li><a target="_blank" href="https://dribbble.com/thirdykero" class="icon fa-dribbble"><span class="label">Dribbble</span></a>
+            </li>
+            <li><a target="_blank" href="https://plus.google.com/u/1/108519934198761574615/posts" class="icon fa-envelope"><span class="label">Email</span></a>
+            </li>
+         </ul>
+
       </div>
 
-    </div>
+   </div>
 
-  </header>
-  <!--END NAV SECTION -->
+   <!-- Main -->
+   <div id="main">
 
-  <!--SLIDE CAROUSEL SECTION -->
-  <section id="slide-head" class="carousel parallax-section-1">
-    <div class="carousel-inner" style="visibility:hidden">
-      <div class="item active">
-        <div class="container">
-          <div class="carousel-content">
-            <h1>Thirdy Kero</h1>
-            <p class="lead text-color-white text-light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien.
-              <br>
-              <a href="#" class="btn btn-success btn-lg margin-top-20">Learn More</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- ./ first active div-->
-      <div class="item">
-        <div class="container">
-          <div class="carousel-content">
-            <h1>Grab Now or Never</h1>
-            <p class="lead text-color-white text-light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien.
-              <br>
-              <a href="#" class="btn btn-primary btn-lg margin-top-20">Download Now</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- ./ Second div-->
-    </div>
-    <a class="prev" href="#slide-head" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-    <a class="next" href="#slide-head" data-slide="next"><i class="fa fa-angle-right"></i></a>
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+         <div class="container">
 
-  </section>
-  <!--END SLIDE CAROUSEL SECTION -->
+            <header>
+               <h2 class="alt">Hi! I'm <strong>Francis</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
+								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
+               <p>Ligula scelerisque justo sem accumsan diam quis
+                  <br />vitae natoque dictum sollicitudin elementum.</p>
+            </header>
 
-  <!--ABOUT SECTION -->
-  <section id="about-section">
-    <div class="wrap-pad">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 ">
-          <div class="text-center">
-            <h1>Meet Team</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
+            <footer>
+               <a href="#portfolio" class="button scrolly">Know About Me</a>
+            </footer>
 
-            </p>
-          </div>
+         </div>
+      </section>
 
-        </div>
-        <!-- ./ Heading div-->
-        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 margin-top-100" style="visibility:hidden;">
-          <div class="col-md-3 col-sm-6" data-scrollreveal="enter left and move 100px, wait 0.6s">
-            <div class="text-center">
-              <p>
-                <img class="img-responsive img-thumbnail img-circle" src="assets/img/team/team1.png" alt="">
-              </p>
-              <h3>Juan Dela Cruz</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
-            <div class="text-center">
-              <p>
-                <img class="img-responsive img-thumbnail img-circle" src="assets/img/team/team2.jpg" alt="">
-              </p>
-              <h3>Theodoro Alonzo</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
-            <div class="text-center">
-              <p>
-                <img class="img-responsive img-thumbnail img-circle" src="assets/img/team/team1.png" alt="">
-              </p>
-              <h3>Jose Rizal</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6" data-scrollreveal="enter right and move 100px, wait 0.6s">
-            <div class="text-center">
-              <p>
-                <img class="img-responsive img-thumbnail img-circle" src="assets/img/team/team2.jpg" alt="">
-              </p>
-              <h3>Zypher Vheigns</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- ./ Content div-->
-      </div>
-    </div>
-  </section>
-  <!--END ABOUT SECTION -->
-  <!--SERVICES SECTION -->
-  <section id="services-section">
-    <div class="wrap-pad">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.5s">
-          <div class="text-center">
-            <h1>Services</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-            </p>
-          </div>
-        </div>
-        <!-- ./ Heading div-->
-        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
-          <div class="col-md-4 col-sm-6" data-scrollreveal="enter left and move 100px, wait 0.6s">
-            <div class="text-center">
-              <i class="fa fa-bolt icon-round bk-color-red"></i>
-              <h4>Responsive Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
-            <div class="text-center">
-              <i class="fa fa-comments icon-round bk-color-black"></i>
-              <h4>24x7 Support</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6" data-scrollreveal="enter right and move 100px, wait 0.6s">
-            <div class="text-center">
-              <i class="fa fa-desktop icon-round bk-color-light-blue"></i>
-              <h4>Awesome Display</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6" data-scrollreveal="enter left and move 100px, wait 0.6s">
-            <div class="text-center">
-              <i class="fa fa-flask icon-round bk-color-green"></i>
-              <h4>Tested Template</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
-            <div class="text-center">
-              <i class="fa fa-pencil icon-round bk-color-blue"></i>
-              <h4>Say Yes To Customize</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6" data-scrollreveal="enter right and move 100px, wait 0.6s">
-            <div class="text-center">
-              <i class="fa fa-thumbs-up icon-round bk-color-brown"></i>
-              <h4>Well Documented</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- ./ Content div-->
-      </div>
-    </div>
-  </section>
-  <!--END SERVICES SECTION -->
-  <!--PORTFOLIO SECTION -->
-  <section id="portfolio-section">
-    <div class="wrap-pad">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.5s">
-          <div class="text-center">
-            <h1><i class="fa fa-picture-o small-icons bk-color-light-blue"></i>Portfolio</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-            </p>
-          </div>
-        </div>
-        <!-- ./ Heading div-->
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+         <div class="container">
 
-        <div class="col-md-10 col-md-offset-1 col-sm-12" data-scrollreveal="enter right and move 100px, wait 0.6s">
-          <ul class="portfolio-items col-3" style="visibility:;">
-            <li class="portfolio-item ">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t1.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
+            <header>
+               <h2>Portfolio</h2>
+            </header>
 
-            <li class="portfolio-item  ">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t3.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-            <li class="portfolio-item   ">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t4.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t5.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t1.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t2.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t3.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t4.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="item-main">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/thumb/t2.png" alt="">
-                  <div class="overlay">
-                    <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/thumb/t1.png"><i class=" fa fa-eye"></i></a>
-                  </div>
-                </div>
-                <h5>Lorem ipsum dolor sit amet</h5>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- ./ Content div-->
-      </div>
-    </div>
+            <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce hendrerit lacus ridiculus.</p>
 
-  </section>
-  <!--END PORTFOLIO SECTION -->
-  <!--PRICING SECTION -->
-  <section id="pricing-section">
-    <div class="wrap-pad">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.5s">
-          <div class="text-center">
-            <h1><i class="fa fa-plane small-icons bk-color-blue"></i>Our Pricing Options</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat. Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
-            </p>
-          </div>
-        </div>
-        <!-- ./ Heading div-->
-        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 margin-top-100 " style="visibility:hidden;">
-          <div id="pricing-table" class="row">
-            <div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.6s">
-              <ul class="plan-main">
-                <li class="plan-name">Starter</li>
-                <li class="plan-price">$ 100</li>
-                <li>5GB Storage</li>
-                <li>1GB Space</li>
-                <li>200 Bandwidth</li>
-                <li>100 Email Address</li>
-                <li>24x7 Support</li>
-                <li>Live Chat</li>
-                <li class="plan-action"><a href="#" class="btn btn-primary btn-lg">Signup</a>
-                </li>
-              </ul>
+            <div class="row">
+               <div class="4u">
+                  <article class="item">
+                     <a target="_blank" href="http://www.ofwwatch.com/home/" class="image fit">
+                        <img src="images/pic02.jpg" alt="" />
+                     </a>
+                     <header>
+                        <h3>OFWWATCH Website</h3>
+                     </header>
+                  </article>
+                  <article class="item">
+                     <a target="_blank" href="http://www.clanbuzz.com/" class="image fit">
+                        <img src="images/pic03.jpg" alt="" />
+                     </a>
+                     <header>
+                        <h3>CLANBUZZ Website</h3>
+                     </header>
+                  </article>
+               </div>
+               <div class="4u">
+                  <article class="item">
+                     <a target="_blank" href="https://sharedmedjournal.com/" class="image fit">
+                        <img src="images/pic04.jpg" alt="" />
+                     </a>
+                     <header>
+                        <h3>SMJ Angular / Material Design Site</h3>
+                     </header>
+                  </article>
+                  <article class="item">
+                     <a href="#" class="image fit">
+                        <img src="images/pic05.jpg" alt="" />
+                     </a>
+                     <header>
+                        <h3>Android MAS Mobile Kit</h3>
+                     </header>
+                  </article>
+               </div>
+               <div class="4u">
+                  <article class="item">
+                     <a href="#" class="image fit">
+                        <img src="images/pic06.jpg" alt="" />
+                     </a>
+                     <header>
+                        <h3>Android Shared Medical Journal</h3>
+                     </header>
+                  </article>
+                  <article class="item">
+                     <a href="#" class="image fit">
+                        <img src="images/pic07.jpg" alt="" />
+                     </a>
+                     <header>
+                        <h3>SENETRI</h3>
+                     </header>
+                  </article>
+               </div>
             </div>
-            <div class="col-md-4 col-sm-4" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
-              <ul class="plan-main featured">
-                <li class="plan-name">Medium</li>
-                <li class="plan-price">$ 200</li>
-                <li>5GB Storage</li>
-                <li>1GB Space</li>
-                <li>200 Bandwidth</li>
-                <li>100 Email Address</li>
-                <li>24x7 Support</li>
-                <li>Live Chat</li>
-                <li class="plan-action"><a href="#" class="btn btn-primary btn-lg">Signup</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4 col-sm-4" data-scrollreveal="enter right and move 100px, wait 0.6s">
-              <ul class="plan-main">
-                <li class="plan-name">Advance</li>
-                <li class="plan-price">$ 300</li>
-                <li>5GB Storage</li>
-                <li>1GB Space</li>
-                <li>200 Bandwidth</li>
-                <li>100 Email Address</li>
-                <li>24x7 Support</li>
-                <li>Live Chat</li>
-                <li class="plan-action"><a href="#" class="btn btn-primary btn-lg">Signup</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- ./ Content div-->
-      </div>
-    </div>
-  </section>
-  <!--END PRICING SECTION -->
-  <!--CONTACT SECTION -->
-  <section id="contact-section">
-    <div class="wrap-pad">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.5s">
-          <div class="text-center">
-            <h1><i class="fa fa-tint small-icons bk-color-black"></i>Contact us Now</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.
-            </p>
-          </div>
-        </div>
-        <!-- ./ Heading div-->
-        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1  margin-top-20">
-          <div class="col-md-6  col-sm-12" data-scrollreveal="enter left and move 100px, wait 0.6s">
-            <h3><i class="fa fa-pencil small-icons bk-color-light-blue"></i>Send Us Your Query</h3>
-            <hr />
-            <form>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" required="required" placeholder="Name">
+
+         </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="about" class="three">
+         <div class="container">
+
+            <header>
+               <h2>About Me</h2>
+            </header>
+
+            <a href="#" class="image featured">
+               <img src="images/pic08.jpg" alt="" />
+            </a>
+
+            <p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec ornare iaculis.</p>
+
+         </div>
+      </section>
+
+      <!-- Comments -->
+      <section id="comment" class="four">
+         <div class="container">
+
+            <header>
+               <h2>Comment</h2>
+            </header>
+
+            <p>Elementum sem parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+               /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+               var disqus_shortname = 'guiexefranz'; // required: replace example with your forum shortname
+
+               /* * * DON'T EDIT BELOW THIS LINE * * */
+               (function () {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+               })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+
+         </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="four">
+         <div class="container">
+
+            <header>
+               <h2>Contact</h2>
+            </header>
+
+            <p>Elementum sem parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+            <form method="post" action="#">
+               <div class="row 50%">
+                  <div class="6u">
+                     <input type="text" name="name" placeholder="Name" />
                   </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" required="required" placeholder="Email address">
+                  <div class="6u">
+                     <input type="text" name="email" placeholder="Email" />
                   </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 col-sm-12">
-                  <div class="form-group">
-                    <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Message"></textarea>
+               </div>
+               <div class="row 50%">
+                  <div class="12u">
+                     <textarea name="message" placeholder="Message"></textarea>
                   </div>
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-lg">Submit Query</button>
+               </div>
+               <div class="row">
+                  <div class="12u">
+                     <input type="submit" value="Send Message" />
                   </div>
-                </div>
-              </div>
+               </div>
             </form>
-          </div>
-          <div class="col-md-4 col-md-offset-1  col-sm-12" data-scrollreveal="enter right and move 100px, wait 0.6s">
-            <h3><i class="fa fa-comments small-icons bk-color-red"></i>Reach Us Here</h3>
-            <hr />123, New york lane.
-            <br />Call: +23-00-89-009
-            <br />Email: info@yourdomain.com
-            <br />
-            <h3><i class="fa fa-plus small-icons bk-color-green"></i>Social Presence</h3>
-            <a href="#"><i class="fa fa-facebook fa-3x color-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter fa-3x color-twitter"></i></a>
-            <a href="#"><i class="fa fa-google-plus fa-3x color-google-plus"></i></a>
-            <a href="#"><i class="fa fa-linkedin fa-3x color-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest fa-3x color-pinterest"></i></a>
-          </div>
-        </div>
-        <!-- ./ Content div-->
-      </div>
-    </div>
-  </section>
-  <!--END CONTACT SECTION -->
-  <!--FOOTER SECTION -->
-  <footer id="footer">
-    <div class="row">
-      <div class="col-md-12  col-sm-12">
-        &copy; 2015 www.qstudio.com | All Rights Reserved
 
-      </div>
-    </div>
-  </footer>
-  <!--END FOOTER SECTION -->
-  <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-  <!-- CORE JQUERY LIBRARY -->
-  <script src="assets/js/jquery.js"></script>
-  <!-- BOOTSTRAP SCRIPTS LIBRARY -->
-  <script src="assets/js/bootstrap.min.js"></script>
-  <!-- PRETTYPHOTO  SCRIPTS  LIBRARY-->
-  <script src="assets/js/jquery.prettyPhoto.js"></script>
-  <!-- SCROLL REVEL  SCRIPTS  LIBRARY-->
-  <script src="assets/js/scrollReveal.js"></script>
-  <!-- CUSTOM SCRIPT-->
-  <script src="assets/scripts/fc-custom.js"></script>
-  <!--PROTOTYP JS -->
-  <script type='text/javascript' src='assets/js/prototype-c161.js'></script>
-  <!--PARALLAX EFFECT -->
-  <script src="assets/scripts/parallax-plugin.js"></script>
+         </div>
+      </section>
 
-  <script type="text/javascript">
-    (function ($) {
-      $(document).ready(function () {
-        //on page load
-        var $window = $(window).on('resize', function () {
-          var height = $(this).height();
-          $("section#slide-head").height(height);
-        }).trigger('resize');
+   </div>
 
-        $('.parallax-section-1').parallax({
-          speed: 0.15
-        });
+   <!-- Footer -->
+   <div id="footer">
 
-      });
-    })(jQuery);
-  </script>
+      <!-- Copyright -->
+      <ul class="copyright">
+         <li>&copy; QUIEXE. All rights reserved.</li>
+         <li>Design: <a href="http://html5up.net">Francis A.</a>
+         </li>
+      </ul>
+
+   </div>
+
 </body>
 
 </html>
